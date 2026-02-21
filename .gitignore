@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+ENV/
+
+# Django
+db.sqlite4
+db.sqlite3
+/static/
+/media/
+
+# Celery
+# celerybeat-schedule
+
+# Project Management (Documentation)
+project_management/
+
+# Environment
+.python-version
+
+# IDE
+.vscode/
+.idea/
