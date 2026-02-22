@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     
     # Third party apps
+    'rest_framework',
     'django_celery_results',
     'django_celery_beat',
     
