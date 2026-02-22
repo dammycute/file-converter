@@ -31,4 +31,13 @@ First, make sure you have Redis running on your machine. Then, follow these step
 - The `converter` folder is where we'll put the actual logic for the file exports.
 - I left the models and views pretty empty for now so we can decide how we want to structure the upload part together.
 
+
+## What the table is going have 
+- 	Email
+-	Original file 
+-	Converted file
+-	Status = {pending, processing, completed, failed}
+-	Created_at 
+-	Error message
+
 Well done sir! 🫡
